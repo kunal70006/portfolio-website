@@ -1,14 +1,13 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import type { NextPage } from "next";
+import Navbar from "../components/Navbar/Navbar";
 
-const Home: NextPage = () => {
+const Index: NextPage = () => {
   return (
-    <div>
-      <h1>test commit</h1>
-      <button className="bg-blue-400 hover:bg-blue-600 font-bold text-white p-2 rounded">
-        Hello
-      </button>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 };
 
-export default Home;
+export default Index;
