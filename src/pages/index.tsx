@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div>
-      <h1>test</h1>
+      <h1>test commit</h1>
       <button className="bg-blue-400 hover:bg-blue-600 font-bold text-white p-2 rounded">
         Hello
       </button>
