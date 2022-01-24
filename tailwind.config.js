@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [
+  content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
@@ -14,6 +14,7 @@ module.exports = {
       red: "#E94560",
       white: "#ffffff",
       slate: "#94a3b8",
+      lightSlate: "#CCD6F6",
     },
   },
   variants: {

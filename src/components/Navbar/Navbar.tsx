@@ -35,7 +35,7 @@ const Navbar = () => {
           </span>
         </a>
       </Link>
-      <button className="bg-transparent font-semibold px-10 py-2 mr-10 font-mono tracking-widest border-solid text-red border-2 rounded-full transition duration-150 hover:ease-in hover:bg-red hover:text-white hover:border-red">
+      <button className="bg-transparent font-semibold px-8  mr-10 font-mono tracking-widest border-solid text-red border-2 rounded-lg transition duration-150 hover:ease-in hover:bg-red hover:text-white hover:border-red">
         RESUME
       </button>
     </nav>
