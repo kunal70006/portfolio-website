@@ -15,4 +15,5 @@ html {
   overflow-y: scroll;
   scrollbar-color: #94a3b8 #1a1a2e;
   scrollbar-width: thin;
+  scroll-behavior: smooth;
 }
