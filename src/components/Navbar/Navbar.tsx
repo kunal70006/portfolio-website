@@ -1,36 +1,8 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import Link from "next/link";
-import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
-  const handleScroll = () => {
-    // find current scroll position
-    const currentScrollPos = window.pageYOffset;
-
-    // set state based on location info (explained in more detail below)
-    setVisible(
-      (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos > 70) ||
-        currentScrollPos < 10
-    );
-
-    // set state to new scroll position
-    setPrevScrollPos(currentScrollPos);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [prevScrollPos, visible, handleScroll]);
-
   return (
-    <nav
-      style={{ top: visible ? "0" : "-60px", transition: "top 0.6s" }}
-      className="flex bg-black text-sm text-red font-semibold justify-end py-6 font-mono tracking-widest fixed right-20"
-    >
+    <nav className="flex w-screen shadow-lg z-10 backdrop-blur-md text-sm text-red font-semibold justify-end py-6 font-mono tracking-widest fixed right-20">
       <Link href="#about">
         <a className="px-10 py-2">
           01.{" "}

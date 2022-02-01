@@ -8,6 +8,7 @@ import About from "../components/About/About";
 import Work from "../components/Work/Work";
 import Next from "../components/Next/Next";
 import Footer from "../components/Footer/Footer";
+import Projects from "../components/Projects/Projects";
 
 const Index: NextPage = () => {
   return (
@@ -38,13 +39,14 @@ const Index: NextPage = () => {
         />
         <meta data-react-helmet="true" property="og:type" content="website" />
       </Head>
-      <div className="flex ">
+      <div className="flex bg-black">
         <LeftSidebar />
         <div className="w-full mx-20 ">
           <Navbar />
           <LandingPage />
           <About />
           <Work />
+          <Projects />
           <Next />
           <Footer />
         </div>
