@@ -2,14 +2,14 @@ import Fade from "react-reveal/Fade";
 
 const LandingPage = () => {
   return (
-    <main className="bg-black flex flex-col text-white h-screen tracking-wider px-80 justify-center">
+    <main className="bg-black flex flex-col text-white h-screen tracking-wider lg:px-80 sm:px-0 justify-center  lg:items-start ">
       <Fade bottom>
         <p className="font-mono text-red text-lg">Hi, my name is </p>
-        <h2 className="text-lightSlate text-6xl font-bold leading-snug">
+        <h2 className="text-lightSlate lg:text-6xl sm:text-3xl font-bold leading-snug">
           Kunaldeep Singh. <br />
           <span className="text-slate"> I build things for the web.</span>
         </h2>
-        <p className="text-slate w-1/3 my-8">
+        <p className="text-slate lg:w-1/3 sm:w-full my-8 sm:text-base">
           I&apos;m a front-end developer with a keen sense of design and an
           unhealthy obesession with coffee & making everything pixel-perfect.
           Now that you&apos;re here, click the button below to get a surprise!

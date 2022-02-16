@@ -6,21 +6,21 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="px-96 bg-black h-screen flex items-center"
+      className="lg:px-96 sm:px-0 bg-black h-screen flex items-center sm:mt-40 lg:mt-0"
       ref={observe}
     >
       {inView && (
         <Slide right>
-          <div className="flex flex-col pl-20">
+          <div className="flex flex-col lg:pl-20 ">
             <div className="flex items-center tracking-wider">
-              <h1 className="text-red text-2xl font-bold">
+              <h1 className="text-red lg:text-2xl sm:text-xl font-bold">
                 02.{" "}
                 <span className="text-lightSlate">Where I&apos;ve Worked</span>
               </h1>
-              <div className=" ml-4 w-80 border-t border-slate " />
+              <div className=" lg:ml-4 sm:ml-1 lg:w-80 sm:w-10 border-t border-slate " />
             </div>
-            <div className="flex">
-              <div className="flex flex-col pl-20 mt-8 text-lg w-1/2">
+            <div className="flex sm:flex-col lg:flex-row">
+              <div className="flex flex-col lg:pl-20 mt-8 text-lg lg:w-1/2 sm:w-full">
                 <h1 className="text-lightSlate font-bold">
                   Engineer{" "}
                   <a
@@ -29,7 +29,7 @@ const Work = () => {
                     rel="noopener noreferrer"
                     href="https://www.cyberoisystems.com/"
                   >
-                    @ CyberoiSystems
+                    @ CyberoiSystems (remote)
                   </a>
                 </h1>
                 <p className="font-mono text-xs mt-2 text-slate">
@@ -51,7 +51,7 @@ const Work = () => {
                   </li>
                 </ul>
               </div>
-              <div className="flex flex-col pl-20 mt-8 text-lg w-1/2">
+              <div className="flex flex-col lg:pl-20 mt-8 text-lg lg:w-1/2 sm:w-full">
                 <h1 className="text-lightSlate font-bold">
                   Front-end Developer{" "}
                   <a
@@ -60,7 +60,7 @@ const Work = () => {
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/unihubindia/about/"
                   >
-                    @ Unihub India
+                    @ Unihub India (remote)
                   </a>
                 </h1>
                 <p className="font-mono text-xs mt-2 text-slate">

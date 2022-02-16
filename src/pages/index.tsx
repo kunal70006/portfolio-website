@@ -41,7 +41,7 @@ const Index: NextPage = () => {
       </Head>
       <div className="flex bg-black">
         <LeftSidebar />
-        <div className="w-full mx-20 ">
+        <div className="w-full lg:mx-20 sm:mx-10">
           <Navbar />
           <LandingPage />
           <About />

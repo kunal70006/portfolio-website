@@ -12,13 +12,13 @@ const Next = () => {
       {inView && (
         <Fade bottom>
           <div className="flex flex-col text-center items-center">
-            <p className="font-mono tracking-wider text-red text-lg">
+            <p className="font-mono tracking-wider text-red lg:text-lg sm:text-sm">
               04. What&apos;s Next?
             </p>
-            <h1 className=" text-6xl text-lightSlate font-semibold mt-2">
+            <h1 className="lg:text-6xl sm:text-3xl text-lightSlate font-semibold mt-2">
               Get In Touch
             </h1>
-            <p className="text-lg text-slate w-1/2 mt-6">
+            <p className="text-lg text-slate lg:w-1/2 sm:w-full mt-6">
               My inbox is always open for new oppurtunities. Whether you have a
               question or just want to say hi, I&apos;ll try my best to get back
               to you!

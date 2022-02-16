@@ -15,6 +15,12 @@ module.exports = {
       white: "#ffffff",
       slate: "#94a3b8",
       lightSlate: "#CCD6F6",
+      lightDark: "#2c2c4f",
+    },
+    extend: {
+      screens: {
+        sm: "350px",
+      },
     },
   },
   variants: {

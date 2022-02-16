@@ -1,6 +1,6 @@
 const RightSidebar = () => {
   return (
-    <div className="flex flex-col h-screen w-20 right-0 bg-black fixed justify-end items-center">
+    <div className="lg:flex sm:hidden flex-col h-screen w-20 right-0 bg-black fixed justify-end items-center">
       <a
         href="mailto:singhkunaldeep@gmail.com"
         target="_blank"

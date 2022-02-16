@@ -6,19 +6,19 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex h-screen items-center px-96 bg-black"
+      className="flex h-screen items-center lg:px-96 sm:px-0 bg-black"
       ref={observe}
     >
       {inView && (
         <Slide left>
           <div className="flex flex-col ">
             <div className="flex items-center tracking-wider">
-              <h1 className="text-red text-2xl font-bold">
+              <h1 className="text-red lg:text-2xl sm:text-xl font-bold">
                 01. <span className="text-lightSlate">About Me</span>
               </h1>
-              <div className=" ml-4 w-80 border-t border-slate " />
+              <div className="ml-4 lg:w-80 sm:w-20 border-t border-slate " />
             </div>
-            <div className="text-slate w-1/2 mt-8 text-lg">
+            <div className="text-slate lg:w-1/2 sm:w-full mt-8 lg:text-lg sm:text-base">
               <p>
                 Hola! My name is Kunal and I think making websites is pretty
                 neat. I&apos;ve been interested in the art of making websites

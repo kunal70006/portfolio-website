@@ -5,7 +5,7 @@ import linkedin from "../../../public/linkedin.png";
 
 const LeftSidebar = () => {
   return (
-    <div className="flex flex-col h-screen w-20 bg-black fixed justify-end items-center">
+    <div className="lg:flex sm:hidden flex-col h-screen w-20 bg-black fixed justify-end items-center">
       <a
         className="mb-10 w-8"
         target="_blank"
