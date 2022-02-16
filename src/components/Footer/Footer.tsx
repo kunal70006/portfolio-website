@@ -1,7 +1,4 @@
 import Image from "next/image";
-import github from "../../../public/github.png";
-import instagram from "../../../public/instagram.png";
-import linkedin from "../../../public/linkedin.png";
 
 const Footer = () => (
   <>
@@ -13,8 +10,10 @@ const Footer = () => (
         href="https://github.com/kunal70006"
       >
         <Image
-          src={github}
+          src="/github.png"
           alt="github icon"
+          width={32}
+          height={32}
           className="cursor-pointer transition duration-150 hover:-translate-y-0.5"
         />
       </a>
@@ -25,8 +24,10 @@ const Footer = () => (
         href="https://www.instagram.com/kunaaalisthisusernameavailable/"
       >
         <Image
-          src={instagram}
+          src="/instagram.png"
           alt="instagram icon"
+          width={32}
+          height={32}
           className="cursor-pointer transition duration-150 hover:-translate-y-0.5"
         />
       </a>
@@ -37,7 +38,9 @@ const Footer = () => (
         href="https://www.linkedin.com/in/kunaldeep-singh-3622b71b0/"
       >
         <Image
-          src={linkedin}
+          src="/linkedin.png"
+          width={32}
+          height={32}
           alt="linkedin icon"
           className="cursor-pointer transition duration-150 hover:-translate-y-0.5"
         />
