@@ -281,7 +281,7 @@ const Projects = () => {
         <div className="flex-col">
           <p className="text-red">Featured Project</p>
           <a
-            href="https://google-search-clone-react.netlify.app/search"
+            href="https://google-search-clone-react.netlify.app/"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -319,7 +319,7 @@ const Projects = () => {
           </div>
         </div>
         <a
-          href="https://google-search-clone-react.netlify.app/search"
+          href="https://google-search-clone-react.netlify.app/"
           target="_blank"
           rel="noreferrer noopener"
           className="w-full"
