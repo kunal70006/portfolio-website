@@ -24,7 +24,7 @@ const Navbar = () => {
               </span>
             </a>
           </Link>
-          <Link href="#">
+          <Link href="#experience">
             <a className="px-10 py-2">
               03.{" "}
               <span className="text-slate transition duration-150 hover:text-red">
