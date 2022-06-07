@@ -47,7 +47,7 @@ const Work = () => {
                   </li>
                   <li className="mb-2">
                     Communicated with multi-disciplinary teams of engineers,
-                    designers, producers, and clients on a daily basis
+                    designers, product managers, and clients on a daily basis
                   </li>
                 </ul>
               </div>
@@ -76,8 +76,8 @@ const Work = () => {
                     to ensure cross-browser compatibility and responsiveness
                   </li>
                   <li className="mb-2">
-                    Interfaced with clients on a weekly basis, providing
-                    technological expertise
+                    Interacted with clients on a weekly basis, providing
+                    technological expertise and updates.
                   </li>
                 </ul>
               </div>
