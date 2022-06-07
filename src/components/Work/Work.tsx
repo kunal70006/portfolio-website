@@ -38,7 +38,7 @@ const Work = () => {
                 <ul className="list-disc text-slate text-base mt-4 pl-4">
                   <li className="mb-2">
                     Wrote modern, performant, maintainable code for a diverse
-                    array of client and internal projects
+                    array of clients and internal projects
                   </li>
                   <li className="mb-2">
                     Worked with a variety of different languages, platforms,
