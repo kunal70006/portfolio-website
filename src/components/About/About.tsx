@@ -22,9 +22,9 @@ const About = () => {
               <p>
                 Hola! My name is Kunal and I think making websites is pretty
                 neat. I&apos;ve been interested in the art of making websites
-                ever since I was a wee lad, back in 2020 when the pandemic
-                started and all of us got way too much free time on our hands, I
-                finally dove headfirst into the world of web development!{" "}
+                ever since I was a kid, back in 2020 when the pandemic started
+                and all of us got way too much free time on our hands, I finally
+                dove headfirst into the world of web development!{" "}
               </p>
               <p className="mt-4">
                 Fast-forward to today, and I&apos;ve had the privilege of
