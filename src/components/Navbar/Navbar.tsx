@@ -40,9 +40,14 @@ const Navbar = () => {
               </span>
             </a>
           </Link>
-          <button className="bg-transparent font-semibold px-8  mr-10 font-mono tracking-widest border-solid text-red border-2 rounded-lg transition duration-150 hover:ease-in hover:bg-red hover:text-white hover:border-red">
+          <a
+            href="/resume-kunal.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-transparent font-semibold px-8  mr-10 font-mono tracking-widest border-solid text-red border-2 rounded-lg transition duration-150 hover:ease-in hover:bg-red hover:text-white hover:border-red"
+          >
             RESUME
-          </button>
+          </a>
         </Fade>
       </nav>
       <div
