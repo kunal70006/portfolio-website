@@ -10,7 +10,7 @@ const LandingPage = () => {
           <span className="text-slate"> I build things for the web.</span>
         </h2>
         <p className="text-slate lg:w-1/3 sm:w-full my-8 sm:text-base">
-          I&apos;m a front-end developer with a keen sense of design and an
+          I&apos;m a front-end developer with a keen sense of design, an
           unhealthy obesession with coffee & making everything pixel-perfect.
           Now that you&apos;re here, click the button below to get a surprise!
         </p>

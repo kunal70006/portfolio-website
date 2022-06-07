@@ -33,7 +33,7 @@ const Work = () => {
                   </a>
                 </h1>
                 <p className="font-mono text-xs mt-2 text-slate">
-                  November 2021 - Present
+                  November 2021 - March 2022
                 </p>
                 <ul className="list-disc text-slate text-base mt-4 pl-4">
                   <li className="mb-2">
