@@ -37,16 +37,16 @@ const Work = () => {
                 </p>
                 <ul className="list-disc text-slate text-base mt-4 pl-4">
                   <li className="mb-2">
-                    Write modern, performant, maintainable code for a diverse
+                    Wrote modern, performant, maintainable code for a diverse
                     array of client and internal projects
                   </li>
                   <li className="mb-2">
-                    Work with a variety of different languages, platforms,
+                    Worked with a variety of different languages, platforms,
                     frameworks, and version control systems such as JavaScript,
                     TypeScript, React, NextJS, Gitlab, and Github
                   </li>
                   <li className="mb-2">
-                    Communicate with multi-disciplinary teams of engineers,
+                    Communicated with multi-disciplinary teams of engineers,
                     designers, producers, and clients on a daily basis
                   </li>
                 </ul>
