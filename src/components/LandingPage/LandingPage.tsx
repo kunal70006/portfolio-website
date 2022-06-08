@@ -11,8 +11,8 @@ const LandingPage = () => {
         </h2>
         <p className="text-slate lg:w-1/3 sm:w-full my-8 sm:text-base">
           I&apos;m a front-end developer with a keen sense of design, an
-          unhealthy obesession with coffee & making everything pixel-perfect.
-          Now that you&apos;re here, click the button below to get a surprise!
+          unhealthy obsession with coffee & making everything pixel-perfect. Now
+          that you&apos;re here, click the button below to get a surprise!
         </p>
         <button
           className="w-fit bg-transparent p-2 font-semibold font-mono tracking-wider border-solid text-red border-2 rounded-lg transition duration-150 hover:ease-in hover:bg-red hover:text-white hover:border-red"
