@@ -28,8 +28,9 @@ const About = () => {
               </p>
               <p className="mt-4">
                 Fast-forward to today, and I&apos;ve had the privilege of
-                working at 2 start-ups during separate internships. My main
-                focus these days is learning Tailwind CSS & VueJS.
+                working at 2 start-ups during separate internships and 1
+                full-time developer role. My main focus these days is learning
+                Tailwind CSS & VueJS.
               </p>
               <p className="mt-4">
                 Here are a few technologies I&apos;ve been working with
