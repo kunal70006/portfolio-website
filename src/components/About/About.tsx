@@ -41,11 +41,13 @@ const About = () => {
                   <li>JavaScript (ES6+)</li>
                   <li>React</li>
                   <li>NextJS</li>
+                  <li>Stencil.js</li>
                 </ul>
                 <ul className="list-disc">
                   <li>TypeScript</li>
-                  <li>MUI (Material UI)</li>
                   <li>Node.js</li>
+                  <li>GraphQL</li>
+                  <li>MUI (Material UI)</li>
                 </ul>
               </div>
             </div>

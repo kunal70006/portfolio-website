@@ -28,6 +28,36 @@ const Work = () => {
                       className="text-red cursor-pointer"
                       target="_blank"
                       rel="noopener noreferrer"
+                      href="https://www.nextlooptechnologies.com/"
+                    >
+                      @ Nextloop Technologies Pvt Ltd (remote)
+                    </a>
+                  </h1>
+                  <p className="font-mono text-xs mt-2 text-slate">
+                    September 2022 - Present
+                  </p>
+                  <ul className="list-disc text-slate text-base mt-4 pl-4">
+                    <li className="mb-2">
+                      Writing clean and maintainable code and tests in VueJs,
+                      Stencil.js and Typescript
+                    </li>
+                    <li className="mb-2">
+                      Developing and shipping highly interactive web
+                      applications for Meltwater.com
+                    </li>
+                    <li className="mb-2">
+                      Working and communicating with an international team in
+                      various timezones on a day to day basis
+                    </li>
+                  </ul>
+                </div>
+                <div className="flex flex-col lg:pl-20 mt-8 text-lg lg:w-1/2 sm:w-full">
+                  <h1 className="text-lightSlate font-bold">
+                    Front-end Engineer{" "}
+                    <a
+                      className="text-red cursor-pointer"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href="https://www.cyberoisystems.com/"
                     >
                       @ CyberoiSystems (remote)
@@ -52,6 +82,8 @@ const Work = () => {
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="flex sm:flex-col lg:flex-row">
                 <div className="flex flex-col lg:pl-20 mt-8 text-lg lg:w-1/2 sm:w-full">
                   <h1 className="text-lightSlate font-bold">
                     Front-end Engineer{" "}
@@ -77,36 +109,38 @@ const Work = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className="flex flex-col lg:pl-20 mt-8 text-lg lg:w-1/2 sm:w-full">
-                <h1 className="text-lightSlate font-bold">
-                  Front-end Developer{" "}
-                  <a
-                    className="text-red cursor-pointer"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.linkedin.com/company/unihubindia/about/"
-                  >
-                    @ Unihub India (remote)
-                  </a>
-                </h1>
-                <p className="font-mono text-xs mt-2 text-slate">
-                  August - October 2020
-                </p>
-                <ul className="list-disc text-slate text-base mt-4 pl-4">
-                  <li className="mb-2">
-                    Developed and maintained code for in-house and client
-                    websites primarily using HTML, CSS, Sass, JavaScript & React
-                  </li>
-                  <li className="mb-2">
-                    Manually tested sites in various browsers and mobile devices
-                    to ensure cross-browser compatibility and responsiveness
-                  </li>
-                  <li className="mb-2">
-                    Interacted with clients on a weekly basis, providing
-                    technological expertise and updates.
-                  </li>
-                </ul>
+                <div className="flex flex-col lg:pl-20 mt-8 text-lg lg:w-1/2 sm:w-full">
+                  <h1 className="text-lightSlate font-bold">
+                    Front-end Developer{" "}
+                    <a
+                      className="text-red cursor-pointer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/company/unihubindia/about/"
+                    >
+                      @ Unihub India (remote)
+                    </a>
+                  </h1>
+                  <p className="font-mono text-xs mt-2 text-slate">
+                    August - October 2020
+                  </p>
+                  <ul className="list-disc text-slate text-base mt-4 pl-4">
+                    <li className="mb-2">
+                      Developed and maintained code for in-house and client
+                      websites primarily using HTML, CSS, Sass, JavaScript &
+                      React
+                    </li>
+                    <li className="mb-2">
+                      Manually tested sites in various browsers and mobile
+                      devices to ensure cross-browser compatibility and
+                      responsiveness
+                    </li>
+                    <li className="mb-2">
+                      Interacted with clients on a weekly basis, providing
+                      technological expertise and updates.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
